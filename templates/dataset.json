@@ -1,0 +1,15 @@
+{
+    "name": "Default parameters files",
+    "description": "Default parameters files",
+    "tags": [
+        "Reference",
+        "dataset_part",
+        "dataset"
+    ],
+    "connector": {
+        "id": "${connector_id}",
+        "parametersValues": {
+            "AZURE_STORAGE_CONTAINER_BLOB_PREFIX": "${organization_id}/BreweryDataset/"
+        }
+    }
+}

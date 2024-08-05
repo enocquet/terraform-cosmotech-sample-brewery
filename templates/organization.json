@@ -1,0 +1,12 @@
+{
+    "name": "Sample Organization",
+    "security": {
+      "default": "none",
+      "accessControlList": [
+        {
+          "id": "${user_email}",
+          "role": "admin"
+        }
+      ]
+    }
+  }
