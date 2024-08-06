@@ -13,7 +13,22 @@ Configuration of a "brewery" solution on a Cosmo Tech Platform.
 
 You need the KUBE_CONFIG_FILE with default target cluster and context.
 
-Ensure the brewery image is accessible in the container registry defined in the values of the Cosmo Tech API.
+Ensure the brewery image is accessible in the container registry defined in the values of the Cosmo Tech API under 'argo' :
+```bash
+argo:
+  imageCredentials:
+    registry: ghcr.io/cosmo-tech
+```
+and under 'config' : 
+```bash
+config:
+  csm:
+    platform:
+      containerRegistry:
+        checkSolutionImage: false
+        host: ghcr.io/cosmo-tech
+```
+
 
 You now have two options : 
 

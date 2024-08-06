@@ -1,6 +1,6 @@
 resource "restapi_object" "create_organization" {
   data = templatefile("${path.module}/templates/organization.json", {
-    user_email = var.user_email,
+    user_email        = var.user_email,
     organization_name = var.organization_name,
   })
   path = "/organizations"
