@@ -10,13 +10,15 @@ terraform {
 provider "restapi" {
   uri = var.api_uri
 
-  # Unused with API_KEY
+  # # Unused with API_KEY
   # oauth_client_credentials {
   #   oauth_client_id      = var.oauth_client_id
   #   oauth_client_secret  = var.oauth_client_secret
   #   oauth_token_endpoint = var.oauth_token_endpoint
   #   oauth_scopes         = var.oauth_scopes
   # }
+
+  insecure = true
 
   headers = {
     "X-CSM-API-KEY" = var.api_key,

@@ -4,14 +4,17 @@ variable "api_uri" {
 
 variable "oauth_client_id" {
   type = string
+  default = ""
 }
 
 variable "oauth_client_secret" {
   type = string
+  default = ""
 }
 
 variable "oauth_scopes" {
   type = list(string)
+  default = [ "" ]
 }
 
 variable "organization_name" {
