@@ -20,6 +20,7 @@ provider "restapi" {
 
   insecure = true
 
+  # Unused with oauth authentication flow
   headers = {
     "X-CSM-API-KEY" = var.api_key,
     "Content-Type"  = "application/yaml"

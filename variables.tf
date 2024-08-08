@@ -21,14 +21,6 @@ variable "organization_name" {
   type = string
 }
 
-variable "acl" {
-  type = list(map(string))
-  default = [{
-    "id"   = "john.doe@cosmotech.com"
-    "role" = "viewer"
-  }]
-}
-
 variable "oauth_token_endpoint" {
   type        = string
   default     = ""
