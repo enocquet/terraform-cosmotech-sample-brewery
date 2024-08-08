@@ -19,6 +19,7 @@ variable "oauth_scopes" {
 
 variable "organization_name" {
   type = string
+  default = "Cosmo Tech Sample Organization"
 }
 
 variable "oauth_token_endpoint" {
