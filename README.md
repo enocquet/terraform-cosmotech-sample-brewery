@@ -102,7 +102,7 @@ provider "restapi" {
 
 The next step is to provide values to the required variables of the module. 
 
-For example, using the API_KEY to authenticate, the a minimal configuration should be : 
+For example, using the API_KEY to authenticate, a minimal configuration should be : 
 ```bash
 api_uri = "<COSMO_TECH_PLATFORM_URL>"
 api_key = "<API_KEY_VALUE>"
@@ -133,16 +133,9 @@ The following resources should have been created :
 - A Solution
 - A workspace
 
-The Simulation too should be launched. 
+The Simulation too should be launched. On your cluster pods will be created in order to run the simulation.
 
-TBD
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Once completed, results will be accessible through the Cosmo Tech API endpoints or in the PostgreSQL database used with the Cosmo Tech Platform.
 
 ## Providers
 
