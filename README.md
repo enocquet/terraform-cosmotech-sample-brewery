@@ -1,7 +1,6 @@
 <!-- BEGIN_TF_DOCS -->
 
 
-```markdown
 # Deploy Cosmo Tech Sample Brewery Solution
 
 Configuration of a "brewery" solution on a Cosmo Tech Platform.
@@ -144,7 +143,6 @@ Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-``` 
 
 ## Providers
 
