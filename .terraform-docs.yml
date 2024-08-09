@@ -23,9 +23,7 @@ sort:
 content: |-
   {{ .Header }}
 
-  ```markdown
   {{ include "Installation.md" }}
-  ``` 
 
   {{ .Providers }}
 
