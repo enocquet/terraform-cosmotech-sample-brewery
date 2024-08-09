@@ -18,7 +18,7 @@ variable "oauth_scopes" {
 }
 
 variable "organization_name" {
-  type = string
+  type    = string
   default = "Cosmo Tech Sample Organization"
 }
 
